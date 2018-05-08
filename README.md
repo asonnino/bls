@@ -4,7 +4,7 @@
 
 A simple Python implementation of threshold BLS signatures.
 
-A link to the full paper is available at the following address: [https://arxiv.org/abs/1802.07344](https://iacr.org/archive/asiacrypt2001/22480516.pdf)
+A link to the full paper is available at the following address: [https://iacr.org/archive/asiacrypt2001/22480516.pdf](https://iacr.org/archive/asiacrypt2001/22480516.pdf)
 
 
 ## Pre-requisites
