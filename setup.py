@@ -17,7 +17,7 @@ setup(
     name='bls-lib',  # Required
 
     # Versions.
-    version='0.0.1',  # Required
+    version='1.0.0',  # Required
 
     # One-line description.
     description='A simple Python implementation of threshold BLS signatures.',  # Required
