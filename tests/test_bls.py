@@ -12,7 +12,7 @@ def test_threshold_authorities():
 	# aggregate verification keys
 	aggr_vk = aggregate_vk(params, vk)
 
-	# bind sign
+	# sign
 	sigs = [sign(params, ski, m) for ski in sk]
 
 	# aggregate credentials
@@ -33,7 +33,7 @@ def test_multi_authorities():
 	# aggregate verification keys
 	aggr_vk = aggregate_vk(params, vk, threshold=False)
 
-	# bind sign
+	# sign
 	sigs = [sign(params, ski, m) for ski in sk]
 
 	# aggregate credentials
