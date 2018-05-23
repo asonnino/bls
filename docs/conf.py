@@ -16,11 +16,15 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath('..'))
 
-import mock
 
-MOCK_MODULES = ['bplib']
-for mod_name in MOCK_MODULES:
-    sys.modules[mod_name] = mock.Mock()
+from mock import Mock as MagicMock
+class Mock(MagicMock):
+    @classmethod
+    def __getattr__(cls, name):
+            return Mock()
+
+MOCK_MODULES = ['cffi', 'pytest', 'bplib']
+sys.modules.update((mod_name, Mock()) for mod_name in MOCK_MODULES)
 
 
 # -- Project information -----------------------------------------------------
