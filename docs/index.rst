@@ -17,7 +17,8 @@ Welcome to BLS's documentation!
     :target: https://travis-ci.org/asonnino/bls
 
 .. image:: https://readthedocs.org/projects/bls-lib/badge/?version=latest
-    :target: https://readthedocs.org
+  :target: https://bls-lib.readthedocs.io/en/latest/?badge=latest
+  :alt: Documentation Status
 
 
 A simple Python implementation of threshold BLS signatures.
