@@ -51,6 +51,9 @@ release = '1.0.0'
 # ones.
 extensions = [
     'sphinx.ext.autodoc',
+    'sphinx.ext.doctest',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.coverage',
     'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
@@ -172,3 +175,8 @@ texinfo_documents = [
 
 
 # -- Extension configuration -------------------------------------------------
+
+add_module_names = False
+add_function_parentheses = True
+
+
