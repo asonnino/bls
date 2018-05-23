@@ -11,7 +11,7 @@ Welcome to BLS's documentation!
    :caption: Contents:
 
 
-Coconut Modules
+BLS Modules
 ---------------
 .. automodule:: bls
 
