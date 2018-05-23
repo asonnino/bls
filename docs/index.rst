@@ -11,6 +11,14 @@ Welcome to BLS's documentation!
    :caption: Contents:
 
 
+Coconut Modules
+---------------
+.. automodule:: bls
+
+.. automodule:: bls.scheme
+
+.. autofunction:: bls.scheme.setup
+
 
 Indices and tables
 ==================
