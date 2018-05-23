@@ -6,6 +6,10 @@
 Welcome to BLS's documentation!
 ===============================
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
 .. image:: https://img.shields.io/badge/license-BSD-brightgreen.svg
     :target: https://github.com/asonnino/bls/blob/master/LICENSE
 
@@ -66,11 +70,6 @@ or simply using tox:
 	tox
 
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-
 BLS Modules
 -----------
 .. automodule:: bls
@@ -91,7 +90,7 @@ BLS Modules
 
 
 Indices and tables
-------------------
+==================
 
 * :ref:`genindex`
 * :ref:`modindex`
@@ -99,7 +98,7 @@ Indices and tables
 
 
 License
--------
+==================
 `The BSD license`_ 
 
 .. _`The BSD license`: https://opensource.org/licenses/BSD-3-Clause
