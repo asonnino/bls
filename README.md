@@ -1,6 +1,5 @@
 # BLS Signatures
 [![license](https://img.shields.io/badge/license-GPL3-brightgreen.svg)](https://github.com/asonnino/bls/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/asonnino/bls.svg?branch=master)](https://travis-ci.org/asonnino/bls)
 [![Documentation Status](https://readthedocs.org/projects/bls-lib/badge/?version=latest)](https://bls-lib.readthedocs.io/en/latest/?badge=latest)
 
 A simple Python implementation of threshold BLS signatures.
