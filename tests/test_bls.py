@@ -16,6 +16,7 @@ def test_threshold_authorities():
 	sigs = [sign(params, ski, m) for ski in sk]
 
 	# aggregate credentials
+	sigs[1] = None
 	sigma = aggregate_sigma(params, sigs)
 
 	# verify signature
@@ -41,7 +42,3 @@ def test_multi_authorities():
 
 	# verify signature
 	assert verify(params, aggr_vk, sigma, m)
-
-
-
-	
