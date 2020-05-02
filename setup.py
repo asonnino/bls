@@ -13,11 +13,11 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 
 setup(
-    # This is the name of your project. 
+    # This is the name of your project.
     name='bls-lib',  # Required
 
     # Versions.
-    version='1.0.0',  # Required
+    version='1.0.1',  # Required
 
     # One-line description.
     description='A simple Python implementation of threshold BLS signatures.',  # Required
@@ -54,8 +54,7 @@ setup(
         'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
 
         # Specify the Python versions are supported.
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
     ],
 
     # This field adds keywords to the project which will appear on the
