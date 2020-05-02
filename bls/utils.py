@@ -16,7 +16,7 @@ def lagrange_basis(t, o, i, x=0):
 	for j in range(1,t+1):
 		if j != i:
 			numerator = (numerator * (x - j)) % o
-			denominator = (denominator * (i - j)) % o 
+			denominator = (denominator * (i - j)) % o
 	return (numerator * denominator.mod_inverse(o)) % o
 
 
@@ -33,7 +33,5 @@ def ec_sum(list):
 
 def hash(elements):
   """ generates a Bn hash by hashing a number of EC points """
-  Cstring = b",".join([str(x) for x in elements])
-  return  sha256(Cstring).digest()
-
-
+  Cstring = ",".join([str(x) for x in elements])
+  return  sha256(Cstring.encode()).digest()
