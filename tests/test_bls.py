@@ -3,7 +3,7 @@ from bls.scheme import *
 
 def test_threshold_authorities():
 	m = [3] * 2 # messages
-	t, n = 2, 3 # number of authorities
+	t, n = 19, 20 # number of authorities
 	params = setup()
 
 	# generate key

@@ -1,5 +1,6 @@
 """ Utilities """
 from hashlib import sha256
+from petlib.bn import Bn
 
 
 # ==================================================
@@ -7,7 +8,7 @@ from hashlib import sha256
 # ==================================================
 def poly_eval(coeff, x):
     """ evaluate a polynomial defined by the list of coefficient coeff at point x """
-    return sum([coeff[i] * (x ** i) for i in range(len(coeff))])
+    return sum([coeff[i] * (Bn(x) ** i) for i in range(len(coeff))])
 
 
 def lagrange_basis(indexes, o, x=0):
